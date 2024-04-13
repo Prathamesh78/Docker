@@ -1,4 +1,3 @@
-![image](https://github.com/Prathamesh78/Docker/assets/104883046/0d7fded4-8ce8-464b-8fa9-18c9e11bcbc0)
 # Docker Commands
 
 This repository contains descriptions and examples of various Docker commands commonly used in container management and orchestration.
