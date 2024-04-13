@@ -1,4 +1,4 @@
-
+![image](https://github.com/Prathamesh78/Docker/assets/104883046/0d7fded4-8ce8-464b-8fa9-18c9e11bcbc0)
 # Docker Commands
 
 This repository contains descriptions and examples of various Docker commands commonly used in container management and orchestration.
@@ -10,6 +10,7 @@ Before running any Docker commands, ensure that Docker is installed on your syst
 ```bash
 docker --version
 ```
+![image](https://github.com/Prathamesh78/Docker/assets/104883046/b24eb6c7-2e57-47ae-b47c-dc84b369be8c)
 
 ## Managing Docker Service
 
@@ -20,6 +21,7 @@ To check the status of the Docker service, use:
 ```bash
 systemctl status docker
 ```
+![image](https://github.com/Prathamesh78/Docker/assets/104883046/ab1a449b-aa86-49fc-b59b-03e79f4128df)
 
 ### Starting Docker Service
 
@@ -28,6 +30,7 @@ To start the Docker service, use:
 ```bash
 systemctl start docker
 ```
+![image](https://github.com/Prathamesh78/Docker/assets/104883046/11e86626-8a86-42de-8759-a772347a56ef)
 
 ### Stopping Docker Service
 
@@ -36,6 +39,9 @@ To stop the Docker service, use:
 ```bash
 systemctl stop docker
 ```
+![image](https://github.com/Prathamesh78/Docker/assets/104883046/ab34fde0-1cc8-4898-95f8-4d3f1921aae1)
+
+![image](https://github.com/Prathamesh78/Docker/assets/104883046/a8410e21-4720-42d4-a002-7b498fb4f562)
 
 ### Restarting Docker Service
 
@@ -62,6 +68,7 @@ To list the images present on the local machine, use:
 ```bash
 docker images
 ```
+![image](https://github.com/Prathamesh78/Docker/assets/104883046/f0e4272a-67f3-4f0f-9fb2-57b0fad49323)
 
 ## Managing Docker Containers
 
@@ -80,6 +87,7 @@ To list all containers, including those in the running and stopped/exited states
 ```bash
 docker ps -a
 ```
+![image](https://github.com/Prathamesh78/Docker/assets/104883046/7a2a8a78-0189-4654-a9b3-33a32a117f97)
 
 ### Pulling Images from Docker Hub
 
@@ -118,15 +126,21 @@ To pull the Ubuntu image from Docker Hub and run a container, use:
 docker pull ubuntu
 docker run ubuntu
 ```
+![image](https://github.com/Prathamesh78/Docker/assets/104883046/68bf60d3-7f93-4c13-9d2d-9faff3d7bead)
+
+![image](https://github.com/Prathamesh78/Docker/assets/104883046/073c1bd0-3933-433f-a0d3-2321f0a76475)
 
 ### Pulling and Running an Nginx Container with Tag
 
 To pull an Nginx image with a specific tag and run a container, use:
 
 ```bash
-docker pull nginx:latest
-docker run nginx:latest
+docker pull nginx:1.25.4
+docker run nginx:1.25.4
 ```
+![image](https://github.com/Prathamesh78/Docker/assets/104883046/bc91ff15-b190-4426-9c81-007027072b04)
+
+![image](https://github.com/Prathamesh78/Docker/assets/104883046/a4542080-4561-4e12-a4f0-e1862b330cab)
 
 ## Contributing
 
